@@ -1,0 +1,413 @@
+body {
+    
+    font-family: 'IBM Plex Serif', serif;
+}
+
+
+/* Barra de navegación */
+.navegador {
+    background-color: #003595;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+
+.barra {
+    background-color: #003595;
+    width: 100%;
+    color: white;
+    height: 30px;
+    padding-bottom: 0px;
+
+}
+
+.extra {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-evenly;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+
+/*portada*/
+
+
+img.img-responsive {
+    display: table-cell;
+    max-width: 100%;
+}
+
+/*font-family: 'Karla', sans-serif;*/
+
+/* Contenido diseño por defecto pantallas pequeñas*/
+
+.sobre {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: center;
+
+}
+
+
+/* Contenido */
+.titulo1 {
+    text-align: center;
+}
+
+/* Lista de servicios */
+
+.textos {
+    text-align: left;
+    align-content: flex-start
+}
+
+
+
+.lista {
+    float: left;
+    align-content: flex-start;
+    align-items: center;
+    padding-right: 2rem;
+    height: 70px;
+    width: 100px;
+
+
+}
+
+.putos {
+    border: 15px;
+    height: 200px;
+    width: 300px;
+}
+
+/* Blog */
+
+.linea {}
+
+.blog {
+    align-content: center;
+    text-align: center;
+
+}
+
+.articulo {
+    align-content: center;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+/* Pie de pagina */
+
+
+
+
+
+
+
+
+/*mediaqueris*/
+
+
+/* Tablet */
+@media all and (min-width: 679px) {
+    .sobre {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        text-align: justify;
+    }
+
+    .serv {
+        align-items: center;
+        column-gap: 6rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .putos {
+        border: 15px;
+        height: 200px;
+        width: 300px;
+    }
+
+    .lista {
+        padding-right: 2rem;
+    }
+    
+    
+    .barra {
+    background-color: #003595;
+    width: 100%;
+    color: white;
+    height: 30px;
+    padding-bottom: 0px;
+
+}
+
+.extra {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-evenly;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+
+}
+
+/* Desktop */
+@media all and (min-width: 999px) {
+    .sobre {
+        margin-left: 15rem;
+        margin-right: 15rem;
+        text-align: justify;
+    }
+
+    .serv {
+        align-items: center;
+        column-gap: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .putos {
+        border: 15px;
+        height: 200px;
+        width: 300px;
+    }
+
+    .lista {
+        padding-right: 2rem;
+    }
+
+    
+    .barra {
+   color: #003595;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+}
+
+.extra {
+    
+}
+
+
+}
+
+/* Pie de página */
+
+.redes {
+    align-items: flex-end;
+}
+
+.ft-main {
+    justify-content: space-evenly;
+}
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: black;
+    color: #bbb;
+    line-height: 1.5;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-title {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+@media only screen and (min-width: 29.8125rem) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 77.5rem) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+.ag {
+    padding-bottom: 200px;
+    background-color: white;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gale {
+    padding-top: 50px;
+
+}
+
+.final {
+    width: 480px;
+
+}
