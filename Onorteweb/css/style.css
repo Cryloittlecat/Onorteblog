@@ -10,6 +10,7 @@ body {
     position: fixed;
     width: 100%;
     padding-bottom: 0px;
+
 }
 
 
@@ -38,9 +39,21 @@ body {
 /*portada*/
 
 
-img.img-responsive {
+/*img.img-responsive {
     display: table-cell;
     max-width: 100%;
+}*/
+
+.portada {
+    background-image: url(../img/portadachica.png);
+    width: auto;
+    height: 320px;
+}
+
+.onortepor {
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
 }
 
 /*font-family: 'Karla', sans-serif;*/
@@ -50,7 +63,8 @@ img.img-responsive {
 .sobre {
     margin-left: 5rem;
     margin-right: 5rem;
-    justify-content: center;
+    justify-content:center;
+    text-align: center;
 
 }
 
@@ -64,7 +78,9 @@ img.img-responsive {
 
 .textos {
     text-align: left;
-    align-content: flex-start
+    align-content: flex-start;
+    text-align: center;
+
 }
 
 
@@ -80,7 +96,7 @@ img.img-responsive {
 
 }
 
-.putos {
+.puntos {
     border: 15px;
     height: 200px;
     width: 300px;
@@ -132,7 +148,7 @@ img.img-responsive {
 
     }
 
-    .putos {
+    .puntos {
         border: 15px;
         height: 200px;
         width: 300px;
@@ -184,7 +200,7 @@ img.img-responsive {
 
     }
 
-    .putos {
+    .puntos {
         border: 15px;
         height: 200px;
         width: 300px;
