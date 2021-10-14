@@ -1,0 +1,10 @@
+/* Pie de página */
+
+.redes {
+  align-items: flex-end;
+}
+
+.ft-main {
+  justify-content: space-evenly;
+}
+
